@@ -1,0 +1,56 @@
+#calculator {
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-gap: 1px;
+}
+#clear,#cancel{
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+
+}
+#display {
+    grid-area: 1/1/span 1/span 2;
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#workspace{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#opStar {
+    grid-area: 3/1/span 1/span 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+.numbers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+    background-color: black;
+}
+#opEqual {
+    grid-area: 3/2/span 1/span 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+.operators {
+    background-color: black;
+    color: white;
+}
